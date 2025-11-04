@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Script Injector",
+  "version": "1.0",
+  "description": "Inject scripts into the current tab (for development/testing).",
+  "permissions": ["scripting", "activeTab", "storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Script Injector"
+  }
+}
